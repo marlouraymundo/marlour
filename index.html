@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<input id="scene-1" type="radio" name="scene" value="1" checked />
+<input id="scene-2" type="radio" name="scene" value="2" />
+<input id="scene-3" type="radio" name="scene" value="3" />
+<input id="scene-4" type="radio" name="scene" value="4" />
+
+<main class="site">
+	<div class="landscape">
+		<div class="landscape-text">
+			MARLOU
+		</div>
+	</div>
+	<div class="left-side">
+		<div class="page-numbers" data-total='04'>
+			<div class="page-number page-number--tens">0</div>
+			<div class="page-number page-number--ones">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+			</div>
+		</div>
+	</div>
+	<div class="hero">
+		<div class="layer" data-scene="1">
+			<h1 class="heading">
+				Introduction
+			</h1>
+		</div>
+		<div class="layer" data-scene="2">
+			<h1 class="heading">
+				Navigation
+			</h1>
+		</div>
+		<div class="layer" data-scene="3">
+			<h1 class="heading">
+				Masked Text
+			</h1>
+		</div>
+		<div class="layer" data-scene="4">
+			<h1 class="heading">
+				Modern CSS Techniques
+			</h1>
+		</div>
+		<nav class="slide-nav">
+			<div class="button-container">
+				<button class="nav-button">< Previous</button>
+				<button class="nav-button">Next ></button>
+			</div>
+			<div class="nav-button-container">
+				<label class="nav-button" for="scene-1" data-scene="1">1</label>
+				<label class="nav-button" for="scene-2" data-scene="2">2</label>
+				<label class="nav-button" for="scene-3" data-scene="3">3</label>
+				<label class="nav-button" for="scene-4" data-scene="4">4</label>
+			</div>
+		</nav>
+	</div>
+
+</main>
